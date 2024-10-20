@@ -1,0 +1,42 @@
+.productDetail {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    padding: 12px 0;
+}
+
+.info h2, .info p {
+    margin-bottom: 12px;
+}
+
+.image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+}
+
+@media (min-width: 376px) {
+    .productDetail {
+        flex-direction: row;
+    }
+
+    .info {
+        padding: 0 12px;
+    }
+
+    .image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 576px) {
+    .image {
+        width: 400px;
+        height: 400px;
+    }
+}

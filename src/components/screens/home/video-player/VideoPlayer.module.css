@@ -1,0 +1,16 @@
+.videoPlayer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    max-width: 330px;
+}
+
+.controllers {
+    position: absolute;
+    z-index: 999;
+    display: flex;
+}
+
+.controllers * {
+    width: 100px;
+}

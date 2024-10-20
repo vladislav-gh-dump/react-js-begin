@@ -1,0 +1,16 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.form input {
+    margin-bottom: 12px;
+}
+
+@media (min-width: 376px) {
+    .form {
+        width: 330px;
+    }
+}

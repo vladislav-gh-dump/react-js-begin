@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+    padding: 24px;
+}
+
+h1 {
+    margin-bottom: 24px;
+}
+
+.navBack {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.input {
+    outline: none;
+}
+
+.btn {
+    display: block;
+    text-decoration: none;
+    background-color: #212121;
+    color: #fff;
+    max-width: 200px;
+}
+
+.btn, .input {
+    padding: 6px 12px;
+    border: 2px solid transparent;
+    transition: border-color 0.4s ease;
+}
+ 
+.btn:hover,
+.input:focus {
+    border-color: aqua;
+}
